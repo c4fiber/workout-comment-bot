@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/next"
+
 // State management
 let currentTone = 'gym';
 const MAX_HISTORY = 10;
